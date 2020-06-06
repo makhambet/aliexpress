@@ -1,0 +1,95 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    outline: none;
+}
+
+.banner .swiper-pagination{
+    position: relative;
+}
+.carousel{
+    margin-top: 5%;
+}
+.carousel .VueCarousel{
+    width: 90%;
+    margin: 0 auto;
+}
+.carousel .VueCarousel-navigation-button{
+    height: 52px !important;
+    width: 52px !important;
+    border-radius: 50% 50%;
+    outline: none;
+    color: #8DCFE3;
+    font-size: 2rem;
+    line-height: 1.6rem;
+    background-color: #fff;
+    z-index: 2;
+}
+.carousel .VueCarousel-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.carousel .VueCarousel-navigation-prev{
+    left: 8.3%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25), -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+.carousel .VueCarousel-navigation-next{
+    right: 8.3%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px -2px 3px rgba(0, 0, 0, 0.25);
+}
+.carousel .product{
+    width: 90%;
+    margin: 0 auto;
+}
+button{
+    outline: none;
+}
+.signin input{
+    width: 100%;
+    padding: 5px 5px 5px 15px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #444;
+}
+.signup input{
+    width: 100%;
+    padding: 5px 5px 5px 15px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #444;
+}
+ul.formulate-input-errors{
+    padding-left: 0;
+}
+ul li.formulate-input-error{
+    list-style: none;
+    color: red;
+    text-align: left;
+    font-size: 12px;
+}
+.filter .custom-control-input:checked ~ .custom-control-label::before{
+    border-color: #B22021;
+    background-color: #B22021;
+}
+
+.registr input{
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.5px solid #939292;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 30px;
+}
+.registr textarea{
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.5px solid #939292;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 80px;
+}
